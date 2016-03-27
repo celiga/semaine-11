@@ -1,0 +1,34 @@
+body{
+    padding:20px 0;
+}
+.header{
+    border-bottom:1px solid #e5e5e5;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+.header h3{
+    margin:0;
+}
+.header .score{
+    text-align:right;
+}
+.container{
+    max-width:730px;
+}
+.footer{
+    border-top:1px solid #e5e5e5;
+    padding-top:20px;
+}
+.jumbotron{
+    text-align:center;
+}
+.jumbotron h1{
+    font-size:4em;
+    margin-bottom:20px;
+}
+.alert{
+    margin-top:20px;
+}
+input{
+    min-width:300px;
+}

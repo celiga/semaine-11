@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Jeu "Pierre Feuille Ciseaux"</title>
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header clearfix">
+               <div class="col-lg-8">
+                <h3 class="text-muted">Jeu "Pierre, Feuille, Ciseaux"</h3>
+               </div>
+               <div class="col-lg-4">
+                <div class="score">Victoires : <span class="badge" id="score">0</span></div>
+               </div>
+            </div>
+            <div class="jumbotron">
+                <h1>Pierre, Feuille, Ciseaux</h1>
+                <div class="form-group">
+                    <select name="choice" id="choice">
+                    </select>
+                </div>
+                <button id="submit" type="submit" class="btn btn-default">Jouer</button>
+                <button id="reset" type="submit" class="btn btn-default">Nouvelle partie</button>
+                <div id="message"></div>
+            </div>
+            <footer class="footer">
+                <p class="text-muted">2016 - Jeu "Pierre Feuille Ciseaux"</p>
+            </footer>
+        </div>
+    </body>
+</html>
